@@ -1,6 +1,40 @@
 /*
  *  Page Structures
  */
+
+#gallery{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#galleryContent{
+  text-align: center;
+  background-color: grey;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  width: 65%;
+}
+
+#galleryContent div{
+  margin:1rem 0;
+}
+
+#galleryContent div img{
+  width: 90%;
+}
+
+#galleryContent{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+
+
+
+
 * {
   margin: 0;
   padding: 0;
